@@ -9,7 +9,8 @@
     <link rel="shortcut icon" href="logo_MX.jpeg" type="image/x-icon">
     <style>
         body {
-            background-color: rgba(219, 207, 207, 0.815);
+            background-color: rgba(183, 205, 218, 0.815);
+            color:rgb(17, 14, 22);
         }
 
         .name {
@@ -22,19 +23,30 @@
             margin-top: 50px;
         }
 
-        .catagories1 h1 {
-            background-color: rgba(8, 122, 112, 0.815);
-        }
-
-        .catagories2 img {
-            width: 45%;
+        .catagories1 img {
+            width: 75%;
             height: 340px;
-            border: 15px solid  rgba(8, 122, 112, 0.815);
+            border: 8px solid rgba(8, 122, 112, 0.815);
 
         }
 
-        .catagories2 h1 {
+        .catagories1 h2 {
             background-color: rgba(8, 122, 112, 0.815);
+        }
+
+        .row1 {
+            display: flex;
+            justify-content: space-evenly;
+            width: auto;
+            height: fit-content;
+
+        }
+        .row2 {
+            display: flex;
+            justify-content: space-evenly;
+            width:auto;
+            height: fit-content;
+
         }
     </style>
 </head>
@@ -45,57 +57,55 @@
             <b>MOBILE XPRESS</b>
         </center>
     </div>
-    <center>
+    <center style="color: black;">
         <p><em>express your style through your gadgets</em></p>
     </center>
     <hr>
-    <h1 class="catagories1">
-        <center><b>catagories</b></center>
-    </h1>
     <center>
-        <div class="catagories2">
-            <div class="phones">
-                <h1>
-                    <center>MOBILES</center>
-                </h1>
-                <a href="phones.html">
-                    <img src="./assests/phn_img" alt="PHONES">
-                </a>
-            </div><br><br>
-            <div class="tablets">
-                <h1>
-                    <center>TABLETS</center>
-                </h1>
-                <a href="tablets.html">
-                    <img src="./assests/tab_img" alt="">
-                </a>
-            </div><br><br>
-            <div class="smartwatches">
-                <h1>
-                    <center>SMARTWATCHES</center>
-                </h1>
-                <a href="smartwatches.html">
-                    <img src="./assests/smartwatch_img" alt="">
-                </a>
-            </div><br><br>
-            <div class="laptops">
-                <h1>
-                    <center>LAPTOPS</center>
-                </h1>
-                <a href="laptops.html">
-                    <img src="./assests/Laptop_img.jpg" alt="">
-                </a>
-            </div><br><br>
-            <div class="accessories">
-                <h1>
-                    <center>ACCESSORIES</center>
-                </h1>
-                <a href="accessories.html">
-                    <img src="./assests/access_img" alt="">
-                </a>
-            </div><br><br>
-    </center>
-    </div>
+        <div class="catagories1">
+            <h2>
+                <center>CATAGORIES</center>
+            </h2>
+            <br>
+            <div class="row1">
+                <div class="phones">
+                    <a href="phones.html">
+                        <img src="./assests/phn_img" alt="PHONES">
+                    </a>
+                    <h2>MOBILES</h2>
+                </div>
+                <br><br>
+                <div class="tablets">
+                    <a href="tablets.html">
+                        <img src="./assests/tab_img" alt="">
+                    </a>
+                    <h2>TABLETS</h2>
+                </div>
+            </div>
+            <br><br>
+            <div class="row2">
+                <div class="smartwatches">
+                    <a href="smartwatches.html">
+                        <img src="./assests/smartwatch_img" alt="">
+                    </a>
+                    <h2>SMARTWATCHES</h2>
+                </div>
+                <br>
+                <div class="accessories">
+                    <a href="laptops.html">
+                        <img src="./assests/Laptop_img.jpg" alt="">
+                    </a>
+                    <h2>LAPTOPS</h2>
+                </div>
+                <br><br>
+                <div class="accessories">
+                    <a href="accessories.html">
+                        <img src="./assests/access_img" alt="">
+                    </a>
+                    <h2>ACCESSORIES</h2>
+                </div>
+            </div>
+        </div>
 </body>
 
 </html>
