@@ -5,169 +5,109 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mobile Express | express your style through your gadgets...~</title>
-    <link rel="shortcut icon" href="logo_MX.jpeg" type="image/x-icon">
+    <link rel="shortcut icon" href="./assests/logo_MX.jpeg" type="image/x-icon">
     <style>
         body {
-            background-color: rgba(221, 196, 196, 0.815);
+            background-color: rgba(183, 205, 218, 0.815);
+            color: rgb(249, 246, 255);
         }
 
-        h1 {
-            background-color: rgba(122, 8, 61, 0.815);
+        .title {
+            background-color: rgba(1, 71, 77, 0.815);
         }
 
-        .smart-watches h3 {
-            background-color: rgba(122, 8, 61, 0.815);
-        }
-
-        .home h3,
+        .home h2,
         a {
-            background-color: rgba(122, 8, 61, 0.815);
-            color: antiquewhite;
+            background-color: rgba(1, 71, 77, 0.815);
+            color: rgb(249, 246, 255);
             text-decoration: none;
         }
-
-        .fire {
+        .row {
             display: flex;
-            width: 25%;
-            height: 340px;
-            border: 15px solid rgba(122, 8, 61, 0.815);
+            justify-content: space-evenly;
+            width: auto;
+            height: fit-content;
         }
 
-        .fire img {
-            height: 340px;
+        .fire-boltt {
+            border: 5px solid rgba(1, 71, 77, 0.815);
+            background-color: rgba(30, 96, 102, 0.815);
+            width: fit-content;
+            height: fit-content;
         }
 
-        .boltt {
-            background-color: rgba(128, 68, 96, 0.945);
-            width: 75%;
-            height: 340px;
-            border: 15px solid rgba(122, 8, 61, 0.815);
+        .noise {
+            border: 5px solid rgba(1, 71, 77, 0.815);
+            background-color: rgba(30, 96, 102, 0.815);
+            width: fit-content;
+            height: fit-content;
         }
 
-        .no {
-            display: flex;
-            width: 20%;
-            height: 340px;
-            border: 15px solid rgba(122, 8, 61, 0.815);
-        }
-
-        .no img {
-            
-            height: 340px;
-        }
-
-        .ise {
-            background-color: rgba(128, 68, 96, 0.945);
-            width: 80%;
-            height: 340px;
-            border: 15px solid rgba(122, 8, 61, 0.815);
-        }
-
-        .bo {
-            display: flex;
-            width: 25%;
-            height: 340px;
-            border: 15px solid rgba(122, 8, 61, 0.815);
-        }
-
-        .bo img {
+        .noise img {
             background-color: white;
-            height: 340px;
         }
 
-        .at {
-            background-color: rgba(128, 68, 96, 0.945);
-            width: 75%;
-            height: 340px;
-            border: 15px solid rgba(122, 8, 61, 0.815);
+        .boat {
+            border: 5px solid rgba(1, 71, 77, 0.815);
+            background-color: rgba(30, 96, 102, 0.815);
+            width: fit-content;
+            height: fit-content;
         }
 
-        .fast {
-            display: flex;
-            width: 20%;
-            height: 340px;
-            border: 15px solid rgba(122, 8, 61, 0.815);
-        }
-
-        .fast img {
-            height: 340px;
-        }
-
-        .track {
-            background-color: rgba(128, 68, 96, 0.945);
-            width: 80%;
-            height: 340px;
-            border: 15px solid rgba(122, 8, 61, 0.815);
+        .fasttrack {
+            border: 5px solid rgba(1, 71, 77, 0.815);
+            background-color: rgba(30, 96, 102, 0.815);
+            width: fit-content;
+            height: fit-content;
         }
     </style>
 </head>
 
 <body>
-    <h1>
+    <h1 class="title">
         <center>
             SMART-WATCHES
         </center>
     </h1>
     <br><br>
-    <div class="smart-watches">
-        <div class="fire-boltt" style="display: flex;">
-            <div class="fire">
-                <center>
-                    <img src="Fireboltt" alt="">
-                </center>
-            </div>
-            <div class="boltt" style="display: flex;">
-                <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum cupiditate adipisci et cum rerum
-                    asperiores mollitia, assumenda velit est. Nemo tempora nobis ipsum natus ea porro modi ipsam
-                    voluptate impedit.</h4>
-            </div>
-        </div>
-        <br><br>
-        <div class="noise" style="display:flex;">
-            <div class="no">
-                <center>
-                    <img src="noise.jpg" alt="">
-                </center>
-            </div>
-            <div class="ise" style="display: flex;">
-                <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum cupiditate adipisci et cum rerum
-                    asperiores mollitia, assumenda velit est. Nemo tempora nobis ipsum natus ea porro modi ipsam
-                    voluptate impedit.</h4>
-            </div>
-        </div>
-        <br><br>
-        <div class="boat" style="display:flex;">
-            <div class="bo">
-                <center>
-                    <img src="boat" alt="">
-                </center>
-            </div>
-            <div class="at" style="display: flex;">
-                <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum cupiditate adipisci et cum rerum
-                    asperiores mollitia, assumenda velit est. Nemo tempora nobis ipsum natus ea porro modi ipsam
-                    voluptate impedit.</h4>
+    <center>
+        <div class="smart-watches">
+            <div class="row">
+                <div class="noise" style="display:flex;">
+                    <div class="no">
+
+                        <img src="./assests/noise.jpg" alt="">
+                        <h1>NOISE</h1>
+                    </div>
+                </div>
+                <div class="fire-boltt" style="display: flex;">
+                    <div class="fire">
+                        <img src="./assests/Fireboltt" alt="">
+                        <h1>FIREBOLTT</h1>
+                    </div>
+                </div>
+                <br><br>
+                <br><br>
+                <div class="boat" style="display:flex;">
+                    <div class="bo">
+                        <img src="./assests/boat" alt="">
+                        <h1>BOAT</h1>
+                    </div>
+                </div>
+                <br><br>
+                <div class="fasttrack" style="display:flex;">
+                    <div class="fast">
+                        <img src="./assests/fasttrack" alt="">
+                        <h1>FASTTRACK</h1>
+                    </div>
+                </div>
             </div>
         </div>
-        <br><br>
-        <div class="fasttrack" style="display:flex;">
-            <div class="fast">
-                <center>
-                    <img src="fasttrack" alt="">
-                </center>
-            </div>
-            <div class="track" style="display: flex;">
-                <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum cupiditate adipisci et cum rerum
-                    asperiores mollitia, assumenda velit est. Nemo tempora nobis ipsum natus ea porro modi ipsam
-                    voluptate impedit.</h4>
-            </div>
-        </div>
-    </div>
-    <br>
-    <br>
+    </center>
     <div class="home">
         <center>
-            <a href="mobileexpres.html">
-                <h3>GO BACK</h3>
+            <a href="index.html">
+                <h2>BACK</h2>
             </a>
         </center>
     </div>

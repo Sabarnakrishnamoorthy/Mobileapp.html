@@ -5,168 +5,110 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mobile Express | express your style through your gadgets...~</title>
-    <link rel="shortcut icon" href="logo_MX.jpeg" type="image/x-icon">
+    <link rel="shortcut icon" href="./assests/logo_MX.jpeg b n" type="image/x-icon">
     <style>
         body {
-            background-color: rgba(214, 115, 115, 0.815);
+            background-color: rgba(183, 205, 218, 0.815);
+            color: rgb(249, 246, 255);
         }
 
-        h1 {
-            background-color: rgba(122, 8, 61, 0.815);
+        .title {
+            background-color: rgba(1, 71, 77, 0.815);
         }
 
-        .laptops h3 {
-            background-color: rgba(122, 8, 61, 0.815);
-        }
-
-        .home h3,
+        .home h2,
         a {
-            background-color: rgba(122, 8, 61, 0.815);
-            color: antiquewhite;
+            background-color: rgba(1, 71, 77, 0.815);
+            color: rgb(249, 246, 255);
             text-decoration: none;
         }
 
-        .hp1 {
+        .row {
             display: flex;
-            width: 33%;
-            height: 340px;
-            border: 15px solid rgba(122, 8, 61, 0.815);
+            justify-content: space-evenly;
+            width: auto;
+            height: auto;
         }
 
-        .hp1 img {
+        .hp {
+            border: 5px solid rgba(1, 71, 77, 0.815);
+            background-color: rgba(30, 96, 102, 0.815);
+            width: fit-content;
+            height: fit-content;
+        }
+
+        .hp img {
             background-color: white;
-            height: 340px;
         }
 
-        .hp2 {
-            background-color: rgba(128, 68, 96, 0.945);
-            width: 67%;
-            height: 340px;
-            border: 15px solid rgba(122, 8, 61, 0.815);
+        .lenovo {
+            border: 5px solid rgba(1, 71, 77, 0.815);
+            background-color: rgba(30, 96, 102, 0.815);
+            width: fit-content;
+            height: fit-content;
         }
 
-        .leno {
-            display: flex;
-            width: 25%;
-            height: 340px;
-            border: 15px solid rgba(122, 8, 61, 0.815);
+        .victus {
+            border: 5px solid rgba(1, 71, 77, 0.815);
+            background-color: rgba(30, 96, 102, 0.815);
+            width: fit-content;
+            height: fit-content;
         }
 
-        .leno img {
-            height: 340px;
-        }
-
-        .vo {
-            background-color: rgba(128, 68, 96, 0.945);
-            width: 75%;
-            height: 340px;
-            border: 15px solid rgba(122, 8, 61, 0.815);
-        }
-
-        .vic {
-            display: flex;
-            width: 29%;
-            height: 340px;
-            border: 15px solid rgba(122, 8, 61, 0.815);
-        }
-
-        .vic img {
-            height: 340px;
-        }
-
-        .tus {
-            background-color: rgba(128, 68, 96, 0.945);
-            width: 71%;
-            height: 340px;
-            border: 15px solid rgba(122, 8, 61, 0.815);
-        }
-
-        .as {
-            display: flex;
-            width: 25%;
-            height: 340px;
-            border: 15px solid rgba(122, 8, 61, 0.815);
-        }
-
-        .as img {
-            height: 340px;
-        }
-
-        .us {
-            background-color: rgba(128, 68, 96, 0.945);
-            width: 75%;
-            height: 340px;
-            border: 15px solid rgba(122, 8, 61, 0.815);
+        .asus {
+            border: 5px solid rgba(1, 71, 77, 0.815);
+            background-color: rgba(30, 96, 102, 0.815);
+            width: fit-content;
+            height: fit-content;
         }
     </style>
 </head>
 
 <body>
-    <h1>
+    <h1 class="title">
         <center>
             LAPTOPS
         </center>
     </h1>
-    <br><br>
-    <div class="laptops">
-        <div class="hp" style="display: flex;">
-            <div class="hp1">
-                <center>
-                    <img src="HP_lap" alt="">
-                </center>
-            </div>
-            <div class="hp2" style="display: flex;">
-                <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum cupiditate adipisci et cum rerum
-                    asperiores mollitia, assumenda velit est. Nemo tempora nobis ipsum natus ea porro modi ipsam
-                    voluptate impedit.</h4>
-            </div>
-        </div>
-        <br><br>
-        <div class="lenovo" style="display:flex;">
-            <div class="leno">
-                <center>
-                    <img src="lenovo_lap" alt="">
-                </center>
-            </div>
-            <div class="vo" style="display: flex;">
-                <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum cupiditate adipisci et cum rerum
-                    asperiores mollitia, assumenda velit est. Nemo tempora nobis ipsum natus ea porro modi ipsam
-                    voluptate impedit.</h4>
-            </div>
-        </div>
-        <br><br>
-        <div class="victus" style="display:flex;">
-            <div class="vic">
-                <center>
-                    <img src="victus_lap" alt="">
-                </center>
-            </div>
-            <div class="tus" style="display: flex;">
-                <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum cupiditate adipisci et cum rerum
-                    asperiores mollitia, assumenda velit est. Nemo tempora nobis ipsum natus ea porro modi ipsam
-                    voluptate impedit.</h4>
+    <br><br><br>
+    <center>
+        <div class="laptops">
+            <div class="row">
+                <div class="hp" style="display: flex;">
+                    <div class="hp1">
+                        <img src="./assests/HP_lap" alt="">
+                        <h1>HP</h1>
+                    </div>
+                </div>
+                <br><br>
+                <div class="asus" style="display:flex;">
+                    <div class="as">
+                        <img src="./assests/asus_lap" alt="">
+                        <h1>ASUS</h1>
+                    </div>
+                </div>
+                <br><br>
+                <div class="victus" style="display:flex;">
+                    <div class="vic">
+                        <img src="./assests/victus_lap" alt="">
+                        <h1>VICTUS</h1>
+                    </div>
+                </div>
+                <br><br>
+                <div class="lenovo" style="display:flex;">
+                    <div class="leno">
+                        <img src="./assests/lenovo_lap" alt="">
+                        <h1>LENOVO</h1>
+                    </div>
+                </div>
             </div>
         </div>
-        <br><br>
-        <div class="asus" style="display:flex;">
-            <div class="as">
-                <center>
-                    <img src="asus_lap" alt="">
-                </center>
-            </div>
-            <div class="us" style="display: flex;">
-                <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum cupiditate adipisci et cum rerum
-                    asperiores mollitia, assumenda velit est. Nemo tempora nobis ipsum natus ea porro modi ipsam
-                    voluptate impedit.</h4>
-            </div>
-        </div>
-    </div>
-    <br>
-    <br>
+    </center>
+    <br><br><br><br><br><br>
     <div class="home">
         <center>
-            <a href="mobileexpres.html">
-                <h3>GO BACK</h3>
+            <a href="index.html">
+                <h2>BACK</h2>
             </a>
         </center>
     </div>
